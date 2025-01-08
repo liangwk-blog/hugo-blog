@@ -1,0 +1,7 @@
+.env
+.env.build
+.hugo_build.lock
+resources/
+.history/
+.idea/
+public/
