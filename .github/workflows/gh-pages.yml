@@ -33,7 +33,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          external_repository: 用户名/github.io仓库名
+          external_repository: liangwk-blog/hugo-blog
           publish_branch: master
           publish_dir: ./public
           force_orphan: true
